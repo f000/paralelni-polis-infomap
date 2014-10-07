@@ -1,0 +1,26 @@
+{
+  "name": "paralelni-polis-map",
+  "title": "Info mapa - Paralelní polis",
+  "version": "0.1.0",
+  "author": {
+    "name": "Lukas Vorlicek <lukas.vorlicek@codeart.cz>"
+  },
+  "licenses": [
+    {
+      "type": "CC BY-NC-ND 3.0 CZ",
+      "url": "http://creativecommons.org/licenses/by-nc-nd/3.0/cz/"
+    }
+  ],
+  "private": true,
+  "engines": {
+    "node": ">= 0.10.30"
+  },
+  "dependencies": {
+    "connect": "^3.1.1",
+    "serve-static": "^1.5.2"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}
