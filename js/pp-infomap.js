@@ -16,7 +16,7 @@ $(function() {
 
   var LeafIcon = L.Icon.extend({
     options: {
-      shadowUrl: '../img/marker-shadow.png',
+      shadowUrl: 'img/marker-shadow.png',
       iconSize:     [25, 41],
       shadowSize:   [41, 41],
       iconAnchor:   [14, 40],
@@ -24,7 +24,7 @@ $(function() {
       popupAnchor:  [-3, -76]
     }
   });
-  var conIcon = new LeafIcon({iconUrl: '../img/marker-icon.png'});
+  var conIcon = new LeafIcon({iconUrl: 'img/marker-icon.png'});
 
   var conMarker = L.marker([50.103360372373, 14.450557172082], {icon: conIcon}).addTo(map);
   conMarker.bindPopup("PP Conference - Dělnická 43, Praha 7");
