@@ -24,11 +24,11 @@ $(function() {
       popupAnchor:  [-3, -76]
     }
   });
-  var conIcon = new LeafIcon({iconUrl: 'img/marker-icon.png'});
+  var ppIcon = new LeafIcon({iconUrl: 'img/marker-pp.png'});
 
-  var conMarker = L.marker([50.103360372373, 14.450557172082], {icon: conIcon}).addTo(map);
+  var conMarker = L.marker([50.103360372373, 14.450557172082], {icon: ppIcon}).addTo(map);
   conMarker.bindPopup("PP Conference - Dělnická 43, Praha 7");
      
-  var partyMaker = L.marker([50.100153474297, 14.446482896599], {icon: conIcon}).addTo(map);
+  var partyMaker = L.marker([50.100153474297, 14.446482896599], {icon: ppIcon}).addTo(map);
   partyMaker.bindPopup("PP Party - Hala č. 7 a 8, Jateční ulice, Praha 7");
 });
