@@ -4,7 +4,7 @@
 * @licence CC BY-NC-ND 3.0 CZ
 */
 
-/*global $,L*/
+/*global jQuery,$,L*/
 
 var markerData = {
         "type": "FeatureCollection",
@@ -340,15 +340,15 @@ var markerData = {
     };
 
 
-$(function () {
+jQuery(function () {
     "use strict";
 
-    $('#infomap').height(649);
+    jQuery('#infomap').height(649);
 
     //l10n ;)
-    if ($('html').attr('lang') === 'en-US') {
-        $.each(markerData.features, function (i, v) {
-            $.extend(markerData.features[i].properties, markerDataEN.features[i].properties);
+    if (jQuery('html').attr('lang') === 'en-US') {
+        jQuery.each(markerData.features, function (i, v) {
+            jQuery.extend(markerData.features[i].properties, markerDataEN.features[i].properties);
         });
     }
 
