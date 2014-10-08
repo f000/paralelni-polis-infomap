@@ -48,6 +48,18 @@ var markerData = {
             {
                 "type": "Feature",
                 "properties": {
+                    "popupTitle": "Zast\u00E1vka N\u00E1dra\u0161\u00ED Hole\u0161ovice",
+                    "popupText": "Metro C<br />Tram 12, 17, 24, no\u010Dn\u00ED 53, 54<br />Bus 112, 156, 201",
+                    "icon": "metroCDropIcon"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [14.440828799986, 50.108301052644]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
                     "popupTitle": "Zast\u00E1vka Palmovka",
                     "popupText": "Metro B<br />Tram 1, 14, 25<br />Bus 156, no\u010Dn\u00ED 505, 511",
                     "icon": "metroBDropIcon"
@@ -249,6 +261,12 @@ var markerData = {
             },
             {
                 "properties": {
+                    "popupTitle": "N\u00E1dra\u0161\u00ED Hole\u0161ovice Stop",
+                    "popupText": "Subway Line  C<br />Tram 12, 17, 24, Night tram 53, 54<br />Bus 112, 156, 201"
+                }
+            },
+            {
+                "properties": {
                     "popupTitle": "Palmovka Stop",
                     "popupText": "Subway Line B<br />Tram 1, 14, 25<br />Bus 156, Night Bus 505, 511"
                 }
@@ -316,7 +334,7 @@ $(function () {
         });
     }
 
-    var map = L.map('infomap').setView([50.102, 14.45], 15),
+    var map = L.map('infomap').setView([50.105, 14.448], 15),
         DropIcon = L.Icon.extend({
             options: {
                 shadowUrl: 'img/markerShadow.png',
