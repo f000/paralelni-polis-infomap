@@ -12,8 +12,8 @@ var markerData = {
             {
                 "type": "Feature",
                 "properties": {
-                    "popupTitle": "Paraleln\u00ED Polis Institut, HUB, Café",
-                    "popupText": "D\u011Blnick\u00E1 43, Praha 7",
+                    "popupTitle": "Paraleln\u00ED Polis Hackers Congress",
+                    "popupText": "Institut, HUB, Café<br />D\u011Blnick\u00E1 43, Praha 7<br /><a href='http://www.paralelnipolis.cz/301/program-hackerskeho-kongresu-paralelni-polis-2014/' target='_blank'>Program</a>",
                     "icon": "ppDropIcon"
                 },
                 "geometry": {
@@ -24,13 +24,25 @@ var markerData = {
             {
                 "type": "Feature",
                 "properties": {
-                    "popupTitle": "Párty Paraleln\u00ED Polis",
-                    "popupText": "Hala \u010D. 7 a 8, Jate\u010Dn\u00ED ulice, Praha 7<ul><li>p\u00E1tek od 22:00 Afterparty - Cirk La Putyka</li><li>sobota od 22:00 Afterparty - Cirk La Putyka</li></ul>",
-                    "icon": "ppDropIcon"
+                    "popupTitle": "Hackers Congress After Party",
+                    "popupText": "Hala Jatka 78, Jate\u010Dn\u00ED ulice, Praha 7<br />Program: <a href='https://www.facebook.com/events/849991365032104/' target='_blank'>Pátek</a>, <a href='https://www.facebook.com/events/1541491262732580/' target='_blank'>Sobota</a>",
+                    "icon": "jatkaDropIcon"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [14.446482896599, 50.100153474297]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "popupTitle": "Hackers Congress Closing Party",
+                    "popupText": "La Fabrika, Komunard\u016F 1001/30, 170 00 Praha 7<br />Program: <a href='https://www.facebook.com/events/700919323326002/' target='_blank'>Ned\u011Ble</a>",
+                    "icon": "lafaDropIcon"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [14.450136065266, 50.103835195263]
                 }
             },
             {
@@ -222,14 +234,17 @@ var markerData = {
         "features": [
             {
                 "properties": {
-                    "popupTitle": "Paraleln\u00ED Polis Institute, HUB, Café",
-                    "popupText": "D\u011Blnick\u00E1 43, Praha 7"
+                    "popupText": "Institute, HUB, Café<br />D\u011Blnick\u00E1 43, Praha 7<br /><a href='http://www.paralelnipolis.cz/308/hackers-congress-paralelni-polis-2014-schedule/' target='_blank'>Programme</a>"
                 }
             },
             {
                 "properties": {
-                    "popupTitle": "Paraleln\u00ED Polis Party",
-                    "popupText": "Hall no. 7 and 8, Jate\u010Dn\u00ED Street, Praha 7<ul><li>Friday from 22:00 Afterparty - Cirk La Putyka</li><li>Saturday from 22:00 Afterparty - Cirk La Putyka</li></ul>"
+                    "popupText": "Jatka 78 Hall, Jate\u010Dn\u00ED ulice, Praha 7<br />Programme: <a href='https://www.facebook.com/events/849991365032104/' target='_blank'>Friday</a>, <a href='https://www.facebook.com/events/1541491262732580/' target='_blank'>Saturday</a>"
+                }
+            },
+            {
+                "properties": {
+                    "popupText": "La Fabrika, Komunard\u016F 1001/30, 170 00 Praha 7<br />Programme: <a href='https://www.facebook.com/events/700919323326002/' target='_blank'>Sunday</a>"
                 }
             },
             {
