@@ -48,7 +48,7 @@ var markerData = {
             {
                 "type": "Feature",
                 "properties": {
-                    "popupTitle": "Zast\u00E1vka N\u00E1dra\u0161\u00ED Hole\u0161ovice",
+                    "popupTitle": "Zast\u00E1vka N\u00E1dra\u017E\u00ED Hole\u0161ovice",
                     "popupText": "Metro C<br />Tram 12, 17, 24, no\u010Dn\u00ED 53, 54<br />Bus 112, 156, 201",
                     "icon": "metroCDropIcon"
                 },
@@ -273,7 +273,7 @@ var markerData = {
             },
             {
                 "properties": {
-                    "popupTitle": "N\u00E1dra\u0161\u00ED Hole\u0161ovice Stop",
+                    "popupTitle": "N\u00E1dra\u017E\u00ED Hole\u0161ovice Stop",
                     "popupText": "Subway Line  C<br />Tram 12, 17, 24, Night tram 53, 54<br />Bus 112, 156, 201"
                 }
             },
@@ -309,7 +309,7 @@ var markerData = {
             },
             {
                 "properties": {
-                    "popupTitle": "Pra\u017Esk\u00E1 tr\u017Enice Stop"
+                    "popupTitle": "Pra\u017Esk\u00E1 Tr\u017Enice Stop"
                 }
             },
             {
@@ -345,6 +345,7 @@ $(function () {
 
     $('#infomap').height(649);
 
+    //l10n ;)
     if ($('html').attr('lang') === 'en-US') {
         $.each(markerData.features, function (i, v) {
             $.extend(markerData.features[i].properties, markerDataEN.features[i].properties);
