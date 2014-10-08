@@ -24,7 +24,7 @@ var markerData = {
             {
                 "type": "Feature",
                 "properties": {
-                    "popupTitle": "Paraleln\u00ED polis Party",
+                    "popupTitle": "Párty Paraleln\u00ED polis",
                     "popupText": "Hala \u010D. 7 a 8, Jate\u010Dn\u00ED ulice, Praha 7<ul><li>p\u00E1tek od 22:00 Afterparty - Cirk La Putyka</li><li>sobota od 22:00 Afterparty - Cirk La Putyka</li></ul>",
                     "icon": "ppDropIcon"
                 },
@@ -344,4 +344,5 @@ $(function () {
     L.geoJson(polyData, {
         style: { color: "#12ff00", weight: 8}
     }).addTo(map);
+
 });
