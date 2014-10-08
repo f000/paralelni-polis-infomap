@@ -293,7 +293,7 @@ var markerData = {
 $(function () {
     "use strict";
 
-    $('#infomap').height(700);
+    $('#infomap').height(649);
 
     if ($('html').attr('lang') === 'en-US') {
         $.each(markerData.features, function (i, v) {
