@@ -355,7 +355,7 @@ jQuery(function () {
     var map = L.map('infomap').setView([50.105, 14.448], 15),
         DropIcon = L.Icon.extend({
             options: {
-                shadowUrl: '../img/markerShadow.png',
+                shadowUrl: '/infomap/img/markerShadow.png',
                 iconSize:     [25, 41],
                 shadowSize:   [41, 41],
                 iconAnchor:   [14, 40],
@@ -365,7 +365,7 @@ jQuery(function () {
         }),
         SquareIcon = L.Icon.extend({
             options: {
-                shadowUrl: '../img/markerShadow.png',
+                shadowUrl: '/infomap/img/markerShadow.png',
                 iconSize:     [25, 25],
                 shadowSize:   [41, 41],
                 iconAnchor:   [14, 15],
@@ -385,9 +385,9 @@ jQuery(function () {
         onEachFeature: function (feature, layer) {
             layer.bindPopup('<h3>' + feature.properties.popupTitle + '</h3>' + feature.properties.popupText);
             if (feature.properties.icon.indexOf("Square") > -1) {
-                layer.setIcon(new SquareIcon({iconUrl: '../img/' + feature.properties.icon + '.png'}));
+                layer.setIcon(new SquareIcon({iconUrl: '/infomap/img/' + feature.properties.icon + '.png'}));
             } else {
-                layer.setIcon(new DropIcon({iconUrl: '../img/' + feature.properties.icon + '.png'}));
+                layer.setIcon(new DropIcon({iconUrl: '/infomap/img/' + feature.properties.icon + '.png'}));
             }
         }
     }).addTo(map);
