@@ -12,7 +12,7 @@ var markerData = {
             {
                 "type": "Feature",
                 "properties": {
-                    "popupTitle": "Paraleln\u00ED polis Institut, HUB, Café",
+                    "popupTitle": "Paraleln\u00ED Polis Institut, HUB, Café",
                     "popupText": "D\u011Blnick\u00E1 43, Praha 7",
                     "icon": "ppDropIcon"
                 },
@@ -24,7 +24,7 @@ var markerData = {
             {
                 "type": "Feature",
                 "properties": {
-                    "popupTitle": "Párty Paraleln\u00ED polis",
+                    "popupTitle": "Párty Paraleln\u00ED Polis",
                     "popupText": "Hala \u010D. 7 a 8, Jate\u010Dn\u00ED ulice, Praha 7<ul><li>p\u00E1tek od 22:00 Afterparty - Cirk La Putyka</li><li>sobota od 22:00 Afterparty - Cirk La Putyka</li></ul>",
                     "icon": "ppDropIcon"
                 },
@@ -222,13 +222,13 @@ var markerData = {
         "features": [
             {
                 "properties": {
-                    "popupTitle": "Paraleln\u00ED polis Institute, HUB, Café",
+                    "popupTitle": "Paraleln\u00ED Polis Institute, HUB, Café",
                     "popupText": "D\u011Blnick\u00E1 43, Praha 7"
                 }
             },
             {
                 "properties": {
-                    "popupTitle": "Paraleln\u00ED polis Party",
+                    "popupTitle": "Paraleln\u00ED Polis Party",
                     "popupText": "Hall no. 7 and 8, Jate\u010Dn\u00ED Street, Praha 7<ul><li>Friday from 22:00 Afterparty - Cirk La Putyka</li><li>Saturday from 22:00 Afterparty - Cirk La Putyka</li></ul>"
                 }
             },
