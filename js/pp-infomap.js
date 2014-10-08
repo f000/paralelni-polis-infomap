@@ -120,6 +120,18 @@ var markerData = {
             {
                 "type": "Feature",
                 "properties": {
+                    "popupTitle": "Zast\u00E1vka Pra\u017Esk\u00E1 tr\u017Enice",
+                    "popupText": "Tram 1, 14, 25",
+                    "icon": "tramSquareIcon"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [14.444216429974, 50.098297022633]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
                     "popupTitle": "Zast\u00E1vka Maniny",
                     "popupText": "Bus 156",
                     "icon": "busSquareIcon"
@@ -293,6 +305,11 @@ var markerData = {
                 "properties": {
                     "popupTitle": "Maniny Stop",
                     "popupText": "Tram 1, 12, 14, 25, Night Tram 53, 54"
+                }
+            },
+            {
+                "properties": {
+                    "popupTitle": "Pra\u017Esk\u00E1 tr\u017Enice Stop"
                 }
             },
             {
