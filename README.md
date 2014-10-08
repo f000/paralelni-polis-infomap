@@ -1,4 +1,4 @@
-# Info mapa - Paralelní polis
+# Info mapa - Paralelní Polis
 
 Info map element for [http://paralelnipolis.cz](http://paralelnipolis.cz), based on openstreetmap.org
 
